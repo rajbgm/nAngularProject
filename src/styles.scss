@@ -1,0 +1,258 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+
+/* General CSS */
+
+body {
+    background: #efefef;
+}
+
+h4 {
+    color: #288aed;
+}
+
+.webPortal {
+    background: #015a82;
+}
+
+.svTitle {
+    color: #015a82;
+    font-size: 22px;
+    padding: 15px 0px 0px 15px;
+}
+
+.svdwnldText {
+    color: #f38022;
+    font-size: 22px;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    min-height: 65px;
+    /*align this as per requirement */
+    background: #fff;
+    z-index: 1;
+}
+
+.sidebar {
+    /* margin: 25px 0px 0px 25px;*/
+    height: 87vh !important;
+    padding: 15px;
+}
+
+.rightnavView {
+    /*background: #fff;*/
+    padding: 15px;
+    margin: 0px 15px 0px 0px;
+    /*align this as per requirement */
+}
+
+.rightnavMain {
+    background: #fff;
+    padding: 15px;
+    margin: 0px -15px 0px -30px;
+    /*align this as per requirement */
+    background-image: url('./assets/images/web-portal-bgnd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87vh;
+}
+
+.welcomeTitle {
+    font-family: "Roboto";
+    font-size: 40px;
+    color: #05477c;
+}
+
+.welcomepg {
+    padding: 5% 0% 0% 20%;
+}
+
+.rmargin {
+    margin-right: 0px !important;
+}
+
+.logoimg {
+    width: 50% !important;
+}
+
+.sv-btn {
+    background: #288aed;
+    color: #fff;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.sv-btn:hover {
+    background: #05477c;
+}
+
+.svbtn {
+    background: #288aed;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.svbtn:hover {
+    background: #05477c;
+    color: #fff;
+}
+
+.topMargin {
+    margin-top: 25px;
+}
+
+.sv-textBox {
+    min-height: 38px;
+    border-radius: 3px !important;
+    border: solid 1px #d3d3d3;
+}
+
+label {
+    margin-top: 15px;
+    color: #fff;
+}
+
+.lblServicePortal {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.footer {
+    padding: 15px;
+    width: 100%;
+    background: #eaeaea;
+}
+
+.accordion>.card .card-header {
+    padding: 0px;
+    margin-bottom: 0px !important;
+}
+
+#patientList ul {
+    padding-inline-start: 0px;
+}
+
+#patientList li {
+    list-style: none;
+    background: #fff;
+    /* min-height: 60px; */
+    padding: 15px 10px 5px 10px;
+    margin: 10px 0px 5px 0px;
+    border-right: solid 5px rgba(40, 138, 237, 0.3);
+    border: solid 1px #efefef;
+}
+
+#patientList li.selected {
+    background: #e4e8f4;
+    border-right: none !important;
+}
+
+#patientList .card-body {
+    border-radius: 0px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 5px 0px !important;
+}
+
+#patientList .collapse {
+    margin: 0px -10px -5px;
+    border-radius: 0px;
+}
+
+.proimg {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    border: solid 3px #ccc;
+    margin-right: 10px;
+}
+
+#patientList label {
+    font-weight: bolder;
+    color: #848484;
+}
+
+#patientList .card {
+    margin-top: 5px;
+}
+
+.addnewPatient {
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    margin-right: -1px;
+    padding-right: 30px;
+}
+
+.divBorder {
+    border-right: solid 3px #ddd;
+}
+
+.tHeader {
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.headerimg {
+    border-radius: 50%;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.headingtitles {
+    color: #f38022;
+    font-size: 16px;
+    padding-top: 15px;
+    float: right;
+}
+
+.addnewlbl {
+    color: #212529 !important;
+    font-weight: bold;
+}
+
+.addNewBox {
+    background: #fff;
+    color: #212529 !important;
+    padding: 0px 25px;
+}
+
+.addnewTitle {
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.btncontainer {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.saveBtn {
+    background: #f38022;
+    color: #fff;
+    border-radius: 18px;
+    border: none;
+    min-width: 100px;
+}
+
+.saveBtn:hover {
+    background: #d86100;
+    color: #fff;
+}
